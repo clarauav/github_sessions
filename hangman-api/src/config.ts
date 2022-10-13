@@ -2,6 +2,7 @@ if(process.env.NODE_ENV === 'development') {
   require('dotenv').config();
 }
 
+//TODO add descrition on readme
 export default {
   database: {
     isActive: process.env.DATA_BASE_ACTIVE,
