@@ -16,7 +16,7 @@ jobs:
       - name: inspect
         run: |
           ls -al 
-          echo quien soy? ${whoami}          
+          whoami        
           pwd
           node -v
           docker version
