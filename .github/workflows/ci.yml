@@ -13,10 +13,12 @@ jobs:
     runs-on: ubuntu-latest
      
     steps:
+      - uses: actions/checkoout@v3
       - name: inspect
         run: |
           ls -al 
-          echo Hola hola     
+          echo Hola 
+          whoami
           pwd
           node -v
           docker version
